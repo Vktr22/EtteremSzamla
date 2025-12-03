@@ -8,7 +8,7 @@ public class AsztalModell {
     private String szin;
     private List<EtelModell> etelek;
 
-    public AsztalModell(String szin, String etelNev) {
+    public AsztalModell(String szin, List<EtelModell> etelek) {
         this.szin = szin;
         this.etelek = etelek;
     }
